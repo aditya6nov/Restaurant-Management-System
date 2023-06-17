@@ -4,7 +4,6 @@ import React, { useEffect } from 'react'
  import Menu from './Menu'
 import Contact from './Contact'
 
-import backVedio from './vedio/vedio.mp4'
 /* import Updates from './Updates' */
 export default function Home() {
   useEffect(()=>{
@@ -13,10 +12,7 @@ export default function Home() {
   return (
     <div>
 <div className="vedio">
-        <video width="100%" height="500px" autoPlay loop muted playsInline className='v1'>
-  <source src={backVedio} type="video/mp4" width="100%"/>
-
-</video>
+<img src="./vedio/photo-1552566626-52f8b828add9.jpg" />
 <div className="c1" style={{color:'white',backgroundImage: 'linearGradient(to top,rgb(0,0,0,1),rgb(0,0,0,.4),rgb(0,0,0,.3))'}}>
 <h1>Delicious Steaks</h1>
 <p><b>4.4/5</b></p>
