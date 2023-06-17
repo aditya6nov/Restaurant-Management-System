@@ -1,5 +1,5 @@
 const mongoose=require('mongoose')
-mongoose.connect("mongodb://0.0.0.0:27017/restaurent")
+mongoose.connect("mongodb://127.0.0.1:27017/restaurent")
 
 orderSchema=new mongoose.Schema({
     name:{
